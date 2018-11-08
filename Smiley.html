@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smiley Canvas</title>
+</head>
+<body>
+	<canvas id="myCanvas" style="background: grey; width: 300px; height: 200px; border: 3px dotted brown; margin-left: 39%;"></canvas>
+	<canvas id="myCanvas2" style="background: grey; width: 300px; height: 200px; border: 3px dotted brown; margin-left: 39%;"></canvas>
+	
+</body>
+<script type="text/javascript">
+	//making the big face
+	pencil = myCanvas.getContext('2d');
+	pencil.beginPath();
+	pencil.arc(150,70,40,0,2*Math.PI);
+	pencil.stroke();
+	//making the eyes
+	//pencil = myCanvas.getContext('2d');
+	pencil.beginPath();
+	pencil.arc(132,60,5,0,2*Math.PI);
+	pencil.stroke();
+	//making the second eye
+	//pencil = myCanvas.getContext('2d');
+	pencil.beginPath();
+	pencil.arc(166,60,5,0,2*Math.PI);
+	pencil.stroke();
+
+	//making the eyeball
+	pencil.beginPath();
+	pencil.arc(132,60,2,0,2*Math.PI);
+	pencil.stroke();
+	//making second the eyeball
+	pencil.beginPath();
+	pencil.arc(166,60,2,0,2*Math.PI);
+	pencil.stroke();
+
+	//making the mouth
+	//pencil = myCanvas.getContext('2d');
+	pencil.beginPath();
+	pencil.arc(150,90,10,0,1*Math.PI);
+	pencil.stroke();
+	//making the nose
+	//pencil = myCanvas.getContext('2d');
+	pencil.moveTo(150,70);
+	pencil.lineTo(155,80);
+	pencil.stroke();
+
+	pencil.moveTo(150,70);
+	pencil.lineTo(145,80);
+	pencil.stroke();
+
+	//The second canvas(House)
+	//making the roof
+	pencil = myCanvas2.getContext('2d');
+	pencil.moveTo(40,15);
+	pencil.lineTo(255,15);
+	pencil.stroke();
+
+	pencil.moveTo(40,15);
+	pencil.lineTo(25,35);
+	pencil.stroke();
+
+	pencil.moveTo(255,15);
+	pencil.lineTo(270,35);
+	pencil.stroke();
+
+	pencil.moveTo(25,35);
+	pencil.lineTo(270,35);
+	pencil.stroke();
+
+	//making the lines on the roof
+	pencil.moveTo(45,15);
+	pencil.lineTo(30,35);
+	pencil.stroke();
+
+	pencil.moveTo(50,15);
+	pencil.lineTo(35,35);
+	pencil.stroke();
+
+	pencil.moveTo(55,15);
+	pencil.lineTo(40,35);
+	pencil.stroke();
+
+	pencil.moveTo(60,15);
+	pencil.lineTo(45,35);
+	pencil.stroke();
+
+	pencil.moveTo(65,15);
+	pencil.lineTo(50,35);
+	pencil.stroke();
+
+	pencil.moveTo(70,15);
+	pencil.lineTo(55,35);
+	pencil.stroke();
+
+	pencil.moveTo(75,15);
+	pencil.lineTo(60,35);
+	pencil.stroke();
+
+	pencil.moveTo(80,15);
+	pencil.lineTo(65,35);
+	pencil.stroke();
+
+	pencil.moveTo(85,15);
+	pencil.lineTo(70,35);
+	pencil.stroke();
+
+	pencil.moveTo(90,15);
+	pencil.lineTo(75,35);
+	pencil.stroke();
+
+	pencil.moveTo(95,15);
+	pencil.lineTo(80,35);
+	pencil.stroke();
+
+	pencil.moveTo(100,15);
+	pencil.lineTo(85,35);
+	pencil.stroke();
+
+	pencil.moveTo(105,15);
+	pencil.lineTo(90,35);
+	pencil.stroke();
+
+	pencil.moveTo(110,15);
+	pencil.lineTo(95,35);
+	pencil.stroke();
+
+	pencil.moveTo(115,15);
+	pencil.lineTo(100,35);
+	pencil.stroke();
+
+	pencil.moveTo(120,15);
+	pencil.lineTo(105,35);
+	pencil.stroke();
+
+	pencil.moveTo(125,15);
+	pencil.lineTo(110,35);
+	pencil.stroke();
+
+	pencil.moveTo(130,15);
+	pencil.lineTo(115,35);
+	pencil.stroke();
+
+	pencil.moveTo(135,15);
+	pencil.lineTo(120,35);
+	pencil.stroke();
+
+	pencil.moveTo(140,15);
+	pencil.lineTo(125,35);
+	pencil.stroke();
+
+	pencil.moveTo(145,15);
+	pencil.lineTo(130,35);
+	pencil.stroke();
+
+	pencil.moveTo(150,15);
+	pencil.lineTo(135,35);
+	pencil.stroke();
+
+	pencil.moveTo(155,15);
+	pencil.lineTo(140,35);
+	pencil.stroke();
+
+	pencil.moveTo(160,15);
+	pencil.lineTo(145,35);
+	pencil.stroke();
+
+	pencil.moveTo(165,15);
+	pencil.lineTo(150,35);
+	pencil.stroke();
+
+	pencil.moveTo(170,15);
+	pencil.lineTo(155,35);
+	pencil.stroke();
+
+	pencil.moveTo(175,15);
+	pencil.lineTo(160,35);
+	pencil.stroke();
+
+	pencil.moveTo(180,15);
+	pencil.lineTo(165,35);
+	pencil.stroke();
+
+	pencil.moveTo(185,15);
+	pencil.lineTo(170,35);
+	pencil.stroke();
+
+	pencil.moveTo(190,15);
+	pencil.lineTo(175,35);
+	pencil.stroke();
+
+	pencil.moveTo(195,15);
+	pencil.lineTo(180,35);
+	pencil.stroke();
+
+	pencil.moveTo(200,15);
+	pencil.lineTo(185,35);
+	pencil.stroke();
+
+	pencil.moveTo(205,15);
+	pencil.lineTo(190,35);
+	pencil.stroke();
+
+	pencil.moveTo(210,15);
+	pencil.lineTo(195,35);
+	pencil.stroke();
+
+	pencil.moveTo(215,15);
+	pencil.lineTo(200,35);
+	pencil.stroke();
+
+	pencil.moveTo(220,15);
+	pencil.lineTo(205,35);
+	pencil.stroke();
+
+	pencil.moveTo(225,15);
+	pencil.lineTo(210,35);
+	pencil.stroke();
+
+	pencil.moveTo(230,15);
+	pencil.lineTo(215,35);
+	pencil.stroke();
+
+	pencil.moveTo(235,15);
+	pencil.lineTo(220,35);
+	pencil.stroke();
+
+	pencil.moveTo(240,15);
+	pencil.lineTo(225,35);
+	pencil.stroke();
+
+	pencil.moveTo(245,15);
+	pencil.lineTo(230,35);
+	pencil.stroke();
+
+	pencil.moveTo(250,15);
+	pencil.lineTo(235,35);
+	pencil.stroke();
+
+	pencil.moveTo(255,15);
+	pencil.lineTo(240,35);
+	pencil.stroke();
+
+	pencil.moveTo(257,20);
+	pencil.lineTo(245,35);
+	pencil.stroke();
+
+	pencil.moveTo(261,22);
+	pencil.lineTo(250,35);
+	pencil.stroke();
+
+	pencil.moveTo(264,27);
+	pencil.lineTo(255,35);
+	pencil.stroke();
+
+	//making the walls
+	pencil.moveTo(45,35);
+	pencil.lineTo(45,140);
+	pencil.stroke();
+
+	pencil.moveTo(250,35);
+	pencil.lineTo(250,140);
+	pencil.stroke();
+
+	//making the floor
+	pencil.moveTo(45,140);
+	pencil.lineTo(250,140);
+	pencil.stroke();
+
+	//making the door
+	pencil.moveTo(115,75);
+	pencil.lineTo(115,140);
+	pencil.stroke();
+
+	pencil.moveTo(180,75);
+	pencil.lineTo(180,140);
+	pencil.stroke();
+
+	pencil.moveTo(120,80);
+	pencil.lineTo(120,140);
+	pencil.stroke();
+
+	pencil.moveTo(175,80);
+	pencil.lineTo(175,140);
+	pencil.stroke();
+
+	pencil.moveTo(115,75);
+	pencil.lineTo(180,75);
+	pencil.stroke();
+
+	pencil.moveTo(120,80);
+	pencil.lineTo(175,80);
+	pencil.stroke();
+
+	//making the first window
+	pencil.moveTo(55,45);
+	pencil.lineTo(55,75);
+	pencil.stroke();
+
+	pencil.moveTo(85,45);
+	pencil.lineTo(85,75);
+	pencil.stroke();
+
+	pencil.moveTo(55,45);
+	pencil.lineTo(85,45);
+	pencil.stroke();
+
+	pencil.moveTo(55,75);
+	pencil.lineTo(85,75);
+	pencil.stroke();
+
+	pencil.moveTo(60,50);
+	pencil.lineTo(60,70);
+	pencil.stroke();
+
+	pencil.moveTo(80,50);
+	pencil.lineTo(80,70);
+	pencil.stroke();
+
+	pencil.moveTo(60,50);
+	pencil.lineTo(80,50);
+	pencil.stroke();
+
+	pencil.moveTo(60,70);
+	pencil.lineTo(80,70);
+	pencil.stroke();
+
+
+</script>
+</html>
